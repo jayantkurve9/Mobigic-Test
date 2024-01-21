@@ -1,0 +1,15 @@
+{
+	"name": "file-uploader",
+	"version": "1.0.0",
+	"description": "File uploader project",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"bcrypt": "^5.0.1",
+		"express": "^4.17.1",
+		"express-fileupload": "^1.2.1",
+		"mongoose": "^6.0.11"
+	}
+}
